@@ -2,6 +2,7 @@ const { nanoid } = require('nanoid');
 const TABLE = 'cursos';
 let store;
 
+//controllador del CRUD de Cursos
 module.exports = function (storeInjected) {
     store = storeInjected;
     if (!store) {
